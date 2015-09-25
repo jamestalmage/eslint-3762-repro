@@ -1,0 +1,23 @@
+{
+  "name": "eslint-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "author": "James Talmage <james@talmage.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.5.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "quote-props": [2, "consistent-as-needed", {"keywords": true}]
+    }
+  }
+}
